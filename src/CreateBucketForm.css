@@ -1,0 +1,53 @@
+.form-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #4CAF50;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
