@@ -92,7 +92,7 @@ function App() {
       <div className="gallery">
         <h3>Uploaded Images</h3>
         <div className="image-grid">
-          {imageList.map((imgUrl, index) => (
+          {imageList.map((imgUrl,index) => (
             <div className="image-item" key={index}>
               <img src={imgUrl} alt={`Uploaded ${index}`} className="gallery-img" />
               <a href={imgUrl} target="_blank" rel="noopener noreferrer">View Image</a>
